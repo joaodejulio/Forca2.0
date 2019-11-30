@@ -1,0 +1,21 @@
+Antes de iniciar o projeto, certifique-se de seguir estes passos:
+Obs: Rode os comandos na pasta do projeto
+
+1- Criar um banco de dados mysql com o nome de 'forcalaravel'
+2- Rode o comando 'php artisan migrate'
+3- Rode o comando 'composer dump-autoload'
+4- Rode os comandos em sequencia:
+    - php artisan db:seed --class=CategoriaTableSeeder
+    - php artisan db:seed --class=CreateUsersSeeder
+    - php artisan db:seed --class=PalavrasTableSeeder
+5- Rode o comando 'php artisan serve'
+
+6- Usuarios cadastrados:
+    login: admin@forca.com
+    senha: 1q2w3e4r@
+    
+    login: jogador@forca.com
+    senha: 1q2w3e4r@
+
+7- O admin tem o poder de cadastrar/editar/excluir as palavras do jogo.
+8- O jogador pode apenas se diverdir jogando.
